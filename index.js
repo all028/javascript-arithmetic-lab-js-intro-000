@@ -30,7 +30,7 @@ function makeInt(n){
     n = parseInt(n,10);
  	  return n;
   }else{
- 	 return NaN;
+ 	 return n;
   }
 
 }
