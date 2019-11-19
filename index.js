@@ -27,8 +27,8 @@ function dec(n){
 function makeInt(n){
 
   if(isNaN(n)){
-    n = parseInt(n,10);
- 	  return n;
+    x = parseInt(n,10);
+ 	  return x;
   }else{
  	 return n;
   }
