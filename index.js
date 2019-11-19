@@ -35,10 +35,10 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  if(isFloat(n)){
+  if(isNaN(n)){
     return n;
   }else{
-    n = parseInt(n,10);
+    n = parseFloat(n,10);
     return n;
   }
 }
