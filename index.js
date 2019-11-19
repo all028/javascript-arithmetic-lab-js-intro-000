@@ -32,5 +32,13 @@ function makeInt(n){
     n = parseInt(n,10);
     return n;
   }
+}
 
+function preserveDecimal(n){
+  if(isFloat(n)){
+    return n;
+  }else{
+    n = parseInt(n,10);
+    return n;
+  }
 }
